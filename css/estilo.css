@@ -1,0 +1,123 @@
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url(../capaJA.png);
+    background-repeat: no-repeat;
+    background-size: 100% 135%;
+
+}
+
+.card {
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.94;
+}
+
+.blue-text {
+    color: #00BCD4
+}
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300;
+
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+input{
+  text-transform: uppercase;
+  font-weight:bold;
+   
+}
+
+textarea {
+   text-transform: uppercase;
+   font-weight:bold;
+}
+
+option{
+  font-weight:bold;
+
+}
+select{
+  font-weight:bold;
+
+
+}
+.button{
+        background-color:#190B07;   
+      }
+
+.scrollhide-nav {
+  right: 0;
+  top: 0;
+  left: 0;
+  transition: -webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.scrollhide-nav.hidden {
+
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+/**********************************/
+
+
+
+
+
+
+
+  
+
+
+
+
+
